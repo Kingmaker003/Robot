@@ -268,12 +268,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/rcmovierequest"
                 ),
             button()
                 (
                     "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/Tamilblasterslinkz"
                 )
         ],
         [
@@ -347,12 +347,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/Tamilblasterslinkz"
                 ),
             button()
                 (
                     "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/rcmovierequest"
                 )
         ],
         [
@@ -364,7 +364,7 @@ class vars(object):
             button()
                 (
                     "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
+                        url="https://instagram.com/broken_.editzz._?igshid=Yzg5MTU1MDY="
                 )
         ],
         [
