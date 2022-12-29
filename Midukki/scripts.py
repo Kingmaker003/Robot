@@ -212,9 +212,11 @@ ADMIN_PANEL = """
 - /broadcast : broadcast message
 """
 
-FILE_CAPTION_TXT = """{file_name}"""
+FILE_CAPTION_TXT = """{file_name}
+𝐒𝐢𝐳𝐞 : {size}
+𝕵𝖔𝖎𝖓: @Tamilblasterslinkz"""
 
-SPELLCHECK_TXT = """Hey Mr 
+SPELLCHECK_TXT = """Bro Please
 Check Your Spelling 
 """
 
