@@ -872,7 +872,7 @@ async def next_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "⌫ 𝕭𝖆𝖈𝖐",
                             callback_data=f"backgroup_{int(index)+1}_{keyword}"
                     ),
                 button()
@@ -916,7 +916,7 @@ async def next_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "⌫ 𝕭𝖆𝖈𝖐",
                             callback_data=f"backgroup_{int(index)+1}_{keyword}"
                     ),
                 button()
@@ -931,7 +931,7 @@ async def next_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "𝕹𝖊𝖝𝖙 ⌦",
                             callback_data=f"nextgroup_{int(index)+1}_{keyword}"
                     )
             ]
@@ -986,7 +986,7 @@ async def back_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "⌫ 𝕭𝖆𝖈𝖐",
                             callback_data=f"nextgroup_{int(index)-1}_{keyword}"
                     )
             ]
@@ -1020,7 +1020,7 @@ async def back_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "⌫ 𝕭𝖆𝖈𝖐",
                             callback_data=f"backgroup_{int(index)-1}_{keyword}"
                     ),
                 button()
@@ -1035,7 +1035,7 @@ async def back_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "𝕹𝖊𝖝𝖙 ⌦",
                             callback_data=f"nextgroup_{int(index)-1}_{keyword}"
                         )
                 ]
