@@ -35,7 +35,7 @@ class Customize(object):
     SPELLCHECK_CAPTION = environ.get("SPELLCHECK_CAPTION", SPELLCHECK_TXT)
     IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", IMDB_TEMPLATE_TXT)
     WELCOME_CAPTION = environ.get("WELCOME_CAPTION", WELCOME_TXT)
-    AUTO_DEL_TIME = int(environ.get("AUTO_DEL_TIME", "900"))
+    AUTO_DEL_TIME = int(environ.get("AUTO_DEL_TIME", "300"))
 
 class Configs(object):
     # admins id
@@ -44,7 +44,7 @@ class Configs(object):
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
     if environ.get("BOT_PICS"):
-        START_PICS = (environ.get("BOT_PICS", "https://telegra.ph/file/5ad2c57ae74bafb6efec1.jpg")).split()
+        START_PICS = (environ.get("BOT_PICS", "https://graph.org/file/352349733513295c92699.jpg")).split()
     START_MESSAGE = environ.get("START_MESSAGE", START_TXT)
 
     # MongoDB information
@@ -54,18 +54,18 @@ class Configs(object):
 
     # Groups & Channels
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Mo_Tech_YT')
+    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rcmovierequest')
     CHANNELS = [int(ch) if find.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
     FORCE_SUB = environ.get('FORCE_SUB')
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and find.search(FORCE_SUB) else None
     FORCES_SUB_LINK = environ.get('FORCE_SUB_LINK')
 
     # Media Caption
-    USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+    USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
     CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", Customize.FILE_CAPTION)
 
     # Filters Control
-    FILTER_RESULTS = int(environ.get("FILTER_RESULTS", "5"))
+    FILTER_RESULTS = int(environ.get("FILTER_RESULTS", "10"))
     FILTER_BUTTONS = {}
 
     # Ads Controls
@@ -75,8 +75,8 @@ class Configs(object):
     # other
     DONATE_LINKS = environ.get("DONATION_LINK", "https://p.paytm.me/xCTH/7yzmtgie")
     LOADING_SYMBOL = bool(environ.get("LOADING_MODE", True))
-    LOADING_A = environ.get("LOADING_SYMBOL_A", "⚪️")
-    LOADING_B = environ.get("LOADING_SYMBOL_B", "⚫️")
+    LOADING_A = environ.get("LOADING_SYMBOL_A", "🔸️")
+    LOADING_B = environ.get("LOADING_SYMBOL_B", "🔹️")
     STOP_BOT = bool(environ.get("DEFAULT", False))
     PORT_CODE = environ.get("PORT", "8080")
     broadcast_ids = {} # don't change this..!!  
