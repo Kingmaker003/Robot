@@ -60,7 +60,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                     await message.reply(text="""𝚂𝙾𝚁𝚁𝚈 𝚂𝙸𝚁, 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙱𝙰𝙽𝙽𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴""", disable_web_page_preview=True)                  
                     return
             except UserNotParticipant:
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://graph.org/file/ca5e05a6a3482a0ae3ce9.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
@@ -75,7 +75,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return
             except FloodWait as x:
                 await asyncio.sleep(x.value)
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://graph.org/file/542a93a7f249933ad3af9.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
@@ -90,7 +90,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return    
             except UserIsBlocked:
                 await message.reply(f"{mention} : blocked the bot")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://graph.org/file/f7b812139b134f822314a.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
@@ -105,7 +105,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return
             except PeerIdInvalid:
                 await message.reply(f"{mention} : user id invalid")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://graph.org/file/9665ad6b5be75fe1e2829.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
