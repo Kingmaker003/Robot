@@ -24,7 +24,7 @@ I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly 
 """
 
 ABOUT_TXT = """
-[{name}](t.me/{username}) Was created on September 4, 2022
+[{name}](t.me/{username}) Was created on January 1, 2023
 We are currently developing this bot, using only the Pyrogram library.
 
 ➾ Developers : Professor
@@ -212,9 +212,9 @@ ADMIN_PANEL = """
 - /broadcast : broadcast message
 """
 
-FILE_CAPTION_TXT = """{file_name}
-𝐒𝐢𝐳𝐞 : {size}
-𝕵𝖔𝖎𝖓: @Tamilblasterslinkz"""
+FILE_CAPTION_TXT = """⚜️Fιʅҽ Nαɱҽ : {file_name}
+🔰𝐒𝐢𝐳𝐞 : {size}
+⚜️𝕵𝖔𝖎𝖓: @Tamilblasterslinkz"""
 
 SPELLCHECK_TXT = """Bro Please
 Check Your Spelling 
