@@ -37,7 +37,7 @@ class Midukki_RoboT(Client):
          f"@Midukki_RoboT based on Pyrogram v{__version__} "
          f"(Layer {layer}) started on @{usr_bot_me.username}. "
         )
-        print("This BoT Created By @Mo_Tech_YT")        
+        print("This BoT Created By @Tamilblasterslinkz")        
         if Configs.LOG_CHANNEL:
             await self.send_logs(int(Configs.LOG_CHANNEL))
 
