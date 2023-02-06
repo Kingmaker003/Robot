@@ -267,24 +267,24 @@ class vars(object):
         [
             button()
                 (
-                    "Support",
+                    "🔍ʀᴇQᴜᴇꜱᴛ🔎",
                         url="https://t.me/rcmovierequest"
                 ),
             button()
                 (
-                    "Updates",
+                    "✨️𝖀𝖕𝖉𝖆𝖙𝖊𝖘✨️",
                         url="https://t.me/Tamilblasterslinkz"
                 )
         ],
         [
             button()
                 (
-                    "Help",
+                    "♥️ᕼEᒪᑭ♥️",
                         callback_data="maincb+help_cb"
                 ),
             button()
                 (
-                    "About",
+                    "♠️ᗩᗷOᑌT♠️",
                        callback_data="maincb+about_cb"
                 )
         ]
@@ -346,12 +346,12 @@ class vars(object):
         [
             button()
                 (
-                    "Support",
+                    "𝖀𝖕𝖉𝖆𝖙𝖊𝖘",
                         url="https://t.me/Tamilblasterslinkz"
                 ),
             button()
                 (
-                    "Source",
+                    "ʀᴇQᴜᴇꜱᴛ",
                         url="https://t.me/rcmovierequest"
                 )
         ],
