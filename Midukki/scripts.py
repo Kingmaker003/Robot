@@ -1,7 +1,7 @@
 START_TXT = """
-Hello 👋 {mention} 
+Vanakkam  {mention} 
 
-I'm <b>{bot}</b> ✨ an advanced telegram Group management
+I'm <b>{bot}</b> ✨ an advanced telegram autofilter bot
 
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
 
@@ -64,7 +64,7 @@ STATUS_TXT = """
 AUTO_TXT = """
 **--MODULE OF AUTOFILTER--**
 
-● I Can Provide Files In Your Group, It Very Easy Way Just Add Me Ro Your Group And Make Me Admin In Your Group, Thats All.. I Will Provide Files From Your Group 
+● I Can Provide Files In Your Group, It Very Easy Way Just Add Me to Your Group And Make Me Admin In Your Group, Thats All.. I Will Provide Files From Your Group 
       
 🔋 **--Usage & Commands--** :
 
@@ -212,12 +212,11 @@ ADMIN_PANEL = """
 - /broadcast : broadcast message
 """
 
-FILE_CAPTION_TXT = """⚜️Fιʅҽ Nαɱҽ : {file_name}
-🔰𝐒𝐢𝐳𝐞 : {size}
-⚜️𝕵𝖔𝖎𝖓: @Tamilblasterslinkz"""
+FILE_CAPTION_TXT = """@Tamilblasterslinkz - {file_name}
+"""
 
-SPELLCHECK_TXT = """Bro Please
-Check Your Spelling 
+SPELLCHECK_TXT = """Bro read Pinned message
+And check your spelling by clicking below 🤞🏻
 """
 
 IMDB_TEMPLATE_TXT = """
