@@ -16,9 +16,9 @@ def who_is_creator(id1, id2):
   return text
     
 class Accounts(object):
-    API_ID = int(environ.get("API_ID", 0))
-    API_HASH = environ.get("API_HASH")
-    BOT_TOKEN = environ.get("BOT_TOKEN")
+    API_ID = int(environ.get("API_ID", "14476344"))
+    API_HASH = environ.get("API_HASH", "d328cc2fdfd757da177e5a642f3454a7")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "5989673667:AAFLvCYMHElNQRXqa0D9wkeO3NuH3Wi3qXQ")
     BOT_PLUGINS = environ.get("BOT_PLUGINS", "Midukki")
     BOT_SESSIONS = environ.get("BOT_SESSION", "Midukki-RoboT")
 
@@ -39,24 +39,24 @@ class Customize(object):
 
 class Configs(object):
     # admins id
-    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '5601313788').split()]
+    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '1176532482 1221846269').split()]
 
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
     if environ.get("BOT_PICS"):
-        START_PICS = (environ.get("BOT_PICS", "https://graph.org/file/352349733513295c92699.jpg")).split()
+        START_PICS = (environ.get("BOT_PICS", "https://graph.org/file/ac14ad9b11d6dae380546.jpg https://graph.org/file/ca5e05a6a3482a0ae3ce9.jpg https://graph.org/file/db278e9ae3b0fc29009b3.jpg https://graph.org/file/a204de3489a2975fbb906.jpg")).split()
     START_MESSAGE = environ.get("START_MESSAGE", START_TXT)
 
     # MongoDB information
-    DATABASE_NAME = environ.get("DATABASE_NAME", "Muhammed")
-    DATABASE_URL = environ.get("DATABASE_URL", None)
+    DATABASE_NAME = environ.get("DATABASE_NAME", "file")
+    DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://file:file@cluster0.hc3w6co.mongodb.net/?retryWrites=true&w=majority")
     COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
     # Groups & Channels
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001705955385'))
     SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rcmovierequest')
-    CHANNELS = [int(ch) if find.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-    FORCE_SUB = environ.get('FORCE_SUB')
+    CHANNELS = [int(ch) if find.search(ch) else ch for ch in environ.get('CHANNELS', '-1001787693118').split()]
+    FORCE_SUB = environ.get('FORCE_SUB', '-1001787693118')
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and find.search(FORCE_SUB) else None
     FORCES_SUB_LINK = environ.get('FORCE_SUB_LINK')
 
@@ -74,7 +74,7 @@ class Configs(object):
 
     # other
     DONATE_LINKS = environ.get("DONATION_LINK", "https://p.paytm.me/xCTH/7yzmtgie")
-    LOADING_SYMBOL = bool(environ.get("LOADING_MODE", True))
+    LOADING_SYMBOL = bool(environ.get("LOADING_MODE", False))
     LOADING_A = environ.get("LOADING_SYMBOL_A", "🔸️")
     LOADING_B = environ.get("LOADING_SYMBOL_B", "🔹️")
     STOP_BOT = bool(environ.get("DEFAULT", False))
